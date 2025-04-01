@@ -41,7 +41,7 @@ export const SendSmsComponent = ({ updateHandler, }) => {
                         <label>
                         Enter phone
                         </label>
-                        <input onChange={(e) => handleChangeHandler(e, 'phone')} value={isData.phone} type='number' placeholder='+4467556543' style={{border:'1px solid grey',padding:'10px',borderRadius:'3px'}}></input>
+                        <input onChange={(e) => handleChangeHandler(e, 'phone')} value={isData.phone} type='text' placeholder='+4467556543' style={{border:'1px solid grey',padding:'10px',borderRadius:'3px'}}></input>
                     </div>
                    
                     

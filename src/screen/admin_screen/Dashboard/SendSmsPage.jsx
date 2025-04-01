@@ -30,6 +30,7 @@ const SendSmsPage = ({ status }) => {
         setIsLoading(true)
         let res = await dispatch(sendSms(data,id))
         if(!res.bool){
+            console.log(res)
             setIsError(true)
             setIsLoading(false)
             return
