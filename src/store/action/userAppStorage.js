@@ -1194,7 +1194,7 @@ export const sendSms = (data,id)=>{
         let data = await response.json()
         return {
           bool: true,
-          message: data.response
+          message: 'done'
         }
       }
     }
