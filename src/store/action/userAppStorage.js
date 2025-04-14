@@ -1163,7 +1163,7 @@ export const sendSms = (data,id)=>{
       adminToken
     } = getState().userAuth
     try {
-      let response = await fetch(`http://localhost:9092/send-sms`, {
+      let response = await fetch(`https://frank-backend.onrender.com/send-sms`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
